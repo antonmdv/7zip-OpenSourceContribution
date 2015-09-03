@@ -6,9 +6,9 @@
 #define MY_DATE "2015-08-09"
 #undef MY_COPYRIGHT
 #undef MY_VERSION_COPYRIGHT_DATE
-#define MY_AUTHOR_NAME "Patrick, Siddharth"
-#define MY_COPYRIGHT_PD "Patrick, Siddharth : Public domain"
-#define MY_COPYRIGHT_CR "Patrick, Siddharth"
+#define MY_AUTHOR_NAME "Ibrahim, Patrick, Siddharth"
+#define MY_COPYRIGHT_PD "Ibrahim, Patrick, Siddharth : Public domain"
+#define MY_COPYRIGHT_CR "Ibrahim, Patrick, Siddharth"
 
 #ifdef USE_COPYRIGHT_CR
   #define MY_COPYRIGHT MY_COPYRIGHT_CR
