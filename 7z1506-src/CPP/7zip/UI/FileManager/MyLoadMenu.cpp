@@ -454,6 +454,7 @@ bool ExecuteFileCommand(int id)
     case IDM_COMMENT: g_App.Comment(); break;
     case IDM_CREATE_FOLDER: g_App.CreateFolder(); break;
     case IDM_CREATE_FILE: g_App.CreateFile(); break;
+	case IDM_EXTRACT_AND_EMAIL: g_App.ExtractAndEmail(); break;
     #ifndef UNDER_CE
     case IDM_LINK: g_App.Link(); break;
     case IDM_ALT_STREAMS: g_App.OpenAltStreams(); break;

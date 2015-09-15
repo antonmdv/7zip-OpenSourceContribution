@@ -34,6 +34,7 @@ BEGIN
     MENUITEM "P&roperties\tAlt+Enter",      IDM_PROPERTIES
     MENUITEM "Comme&nt...\tCtrl+Z",         IDM_COMMENT
     // MENUITEM "Calculate checksum",          IDM_CRC
+	MENUITEM "Compress/Upload to Dropbox", IDM_EXTRACT_AND_EMAIL
     POPUP "CRC"
     BEGIN
       MENUITEM "CRC-32",                    IDM_CRC32
