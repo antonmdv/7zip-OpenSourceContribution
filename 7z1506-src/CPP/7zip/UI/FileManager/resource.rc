@@ -20,7 +20,12 @@ BEGIN
     MENUITEM "&Open\tEnter",                IDM_OPEN
     MENUITEM "Open &Inside\tCtrl+PgDn",     IDM_OPEN_INSIDE
     MENUITEM "Open O&utside\tShift+Enter",  IDM_OPEN_OUTSIDE
-    MENUITEM "&View\tF3",                   IDM_FILE_VIEW
+	POPUP "View Menu"
+	BEGIN
+      MENUITEM "&View",                     IDM_FILE_VIEW
+	  MENUITEM "&View All",                 IDM_VIEW_ALL
+	  MENUITEM "&Un-View All"                   IDM_UNVIEW
+	END
     MENUITEM "&Edit\tF4",                   IDM_FILE_EDIT
     MENUITEM SEPARATOR
     MENUITEM "Rena&me\tF2",                 IDM_RENAME
@@ -34,7 +39,7 @@ BEGIN
     MENUITEM "P&roperties\tAlt+Enter",      IDM_PROPERTIES
     MENUITEM "Comme&nt...\tCtrl+Z",         IDM_COMMENT
     // MENUITEM "Calculate checksum",          IDM_CRC
-	MENUITEM "Compress/Upload to Dropbox", IDM_EXTRACT_AND_EMAIL
+	MENUITEM "Test ",                       IDM_FAVOORITES
     POPUP "CRC"
     BEGIN
       MENUITEM "CRC-32",                    IDM_CRC32

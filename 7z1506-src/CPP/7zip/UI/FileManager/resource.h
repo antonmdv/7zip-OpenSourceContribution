@@ -43,7 +43,7 @@
 #define IDM_DIFF                 554
 #define IDM_CREATE_FOLDER        555
 #define IDM_CREATE_FILE          556
-#define IDM_EXTRACT_AND_EMAIL    557
+#define IDM_FAVOORITES           557
 #define IDM_LINK                 558
 #define IDM_ALT_STREAMS          559
 
@@ -54,6 +54,9 @@
 #define IDM_DESELECT             604
 #define IDM_SELECT_BY_TYPE       605
 #define IDM_DESELECT_BY_TYPE     606
+#define IDM_VIEW_ALL             607
+#define IDM_UNVIEW               608
+
 
 #define IDM_VIEW_LARGE_ICONS     700
 #define IDM_VIEW_SMALL_ICONS     701

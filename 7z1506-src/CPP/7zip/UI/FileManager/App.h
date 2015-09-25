@@ -202,7 +202,7 @@ public:
   void Combine();
   void Properties() { GetFocusedPanel().Properties(); }
   void Comment() { GetFocusedPanel().ChangeComment(); }
-  void ExtractAndEmail() {}
+  void Upload() { GetFocusedPanel().TestArchives(); }
   
   #ifndef UNDER_CE
   void Link();

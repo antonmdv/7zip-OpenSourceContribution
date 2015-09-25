@@ -435,6 +435,14 @@ bool ExecuteFileCommand(int id)
     case IDM_OPEN_INSIDE: g_App.OpenItemInside(); break;
     case IDM_OPEN_OUTSIDE: g_App.OpenItemOutside(); break;
     case IDM_FILE_VIEW: g_App.EditItem(false); break;
+	case IDM_VIEW_ALL: 
+		g_App.SelectAll(true);
+		g_App.Refresh_StatusBar();
+		g_App.EditItem(false);
+		g_App.SelectAll(false);
+        g_App.Refresh_StatusBar();
+		break;
+	case IDM_UNVIEW: g_App.RefreshView(); break;
     case IDM_FILE_EDIT: g_App.EditItem(true); break;
     case IDM_RENAME: g_App.Rename(); break;
     case IDM_COPY_TO: g_App.CopyTo(); break;
@@ -454,7 +462,7 @@ bool ExecuteFileCommand(int id)
     case IDM_COMMENT: g_App.Comment(); break;
     case IDM_CREATE_FOLDER: g_App.CreateFolder(); break;
     case IDM_CREATE_FILE: g_App.CreateFile(); break;
-	case IDM_EXTRACT_AND_EMAIL: g_App.ExtractAndEmail(); break;
+	case IDM_FAVOORITES: g_App.Upload(); break;
     #ifndef UNDER_CE
     case IDM_LINK: g_App.Link(); break;
     case IDM_ALT_STREAMS: g_App.OpenAltStreams(); break;
