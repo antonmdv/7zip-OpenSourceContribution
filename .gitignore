@@ -3,6 +3,9 @@
 *.lo
 *.o
 *.obj
+*.res
+*.esp
+*.sfx
 
 # Precompiled Headers
 *.gch
