@@ -250,27 +250,24 @@ bool CPanel::OnKeyDown(LPNMLVKEYDOWN keyDownInfo, LRESULT &result)
     }
     /*
     case VK_DELETE:
+
       CommandDelete();
       return 0;
     case VK_F1:
-      CommandHelp();
-      return 0;
+	CommandHelp();
+	return 0;
     */
     case VK_BACK:
       OpenParentFolder();
       return true;
-    /*
-    case VK_DIVIDE:
-    case '\\':
-    case '/':
-    case VK_OEM_5:
+    
+    
+    case VK_F8:
     {
-      // OpenRootFolder();
-      OpenDrivesFolder();
-
+      g_App.Upload();
       return true;
     }
-    */
+   
     case 'A':
       if(ctrl)
       {

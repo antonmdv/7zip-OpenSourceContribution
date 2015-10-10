@@ -34,6 +34,7 @@ using namespace NDir;
 using namespace NFind;
 using namespace NName;
 
+
 extern DWORD g_ComCtl32Version;
 extern HINSTANCE g_hInstance;
 
