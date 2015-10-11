@@ -158,7 +158,7 @@ LRESULT CMyListView::OnMessage(UINT message, WPARAM wParam, LPARAM lParam)
         virtualKey == VK_SUBTRACT)
       return 0;
     if ((wParam == '/' && extended)
-        || wParam == '\\' || wParam == '/')
+        || wParam == '/')
     {
       _panel->OpenDrivesFolder();
       return 0;

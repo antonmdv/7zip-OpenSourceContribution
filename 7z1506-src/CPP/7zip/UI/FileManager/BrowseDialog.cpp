@@ -415,9 +415,11 @@ bool CBrowseDialog::OnKeyDown(LPNMLVKEYDOWN keyDownInfo)
 
   switch (keyDownInfo->wVKey)
   {
+
     case VK_BACK:
       OpenParentFolder();
       return true;
+    
     case 'R':
       if (ctrl)
       {

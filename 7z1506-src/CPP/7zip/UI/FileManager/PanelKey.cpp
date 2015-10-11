@@ -261,7 +261,6 @@ bool CPanel::OnKeyDown(LPNMLVKEYDOWN keyDownInfo, LRESULT &result)
       OpenParentFolder();
       return true;
     
-    
     case VK_F8:
     {
       g_App.Upload();
